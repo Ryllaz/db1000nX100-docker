@@ -35,3 +35,7 @@ $ ./run.bash
 
 Use `stop.bash` for stopping service and removing container.
 
+## Info
+https://x100.vn.ua/  
+https://github.com/Arriven/db1000n  
+https://github.com/ihorlv/db1000nX100
