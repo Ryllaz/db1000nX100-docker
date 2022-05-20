@@ -1,0 +1,6 @@
+cpuUsageLimit=80
+ramUsageLimit=80
+networkUsageLimit=90
+oneSessionDuration=900
+vpnMaxConnectionsLimit=0
+logsEnabled=1
