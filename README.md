@@ -3,7 +3,11 @@
 It is simplest setup for running [db1000nx100](https://github.com/ihorlv/db1000nX100) as Docker container
 
 ## Requirements
-OS: Linux / MacOS / Windows (with WSL)
+OS: Linux / MacOS / Windows (with WSL)  
+Installed: git  
+Bunch of OpenVPN config files from some VPN services.
+
+For example you can download free ovpn files here: https://www.vpngate.net/en/
 
 ## Installation
 
@@ -26,8 +30,10 @@ Then you can run setup script to prepare config files:
 ```
 $ ./setup.bash
 ```
-
-Then copy your ovpn files into `put-your-ovpn-files-here` directory. That files can be placed in subdirectories, levels are not limited - they will be searched recursively.
+>**IMPORTANT!**  
+>  
+> Then **copy your ovpn files** into `put-your-ovpn-files-here` directory.
+> That files can be placed in subdirectories, levels are not limited - they > will be searched recursively.
 
 Also you can place file `vpn-provider-config.txt` in same dir with ovpn files.
 
