@@ -54,7 +54,7 @@ Use `stop.bash` for stopping service and removing container.
 
 After running setup script you will get file 
 ```
-put-your-ovpn-files-here/db1000nX100-config-override.txt`
+put-your-ovpn-files-here/db1000nX100-config-override.txt
 ```
 
 It can have next config options:
