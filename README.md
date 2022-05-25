@@ -22,7 +22,7 @@ Then go to project root directory and make scripts executable:
 ```
 $ cd /your/path/db1000nX100-docker
 
-$ chmod -x setup.bash start.bash stop.bash
+$ chmod +x setup.bash start.bash stop.bash
 ```
 
 Then you can run setup script to prepare config files:

@@ -1,5 +1,7 @@
 #!/bin/bash
 
-rm ./put-your-ovpn-files-here/db1000nx100-config-override.txt
+cd put-your-ovpn-files-here
 
-cp ./put-your-ovpn-files-here/db1000nx100-config.txt ./put-your-ovpn-files-here/db1000nx100-config-override.txt
+rm db1000nX100-config-override.txt
+
+cp db1000nX100-config.txt db1000nX100-config-override.txt
