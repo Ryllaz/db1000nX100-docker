@@ -39,7 +39,7 @@ Also you can place file `vpn-provider-config.txt` in same dir with ovpn files.
 
 Available option - `max_connections`.
 
-Example config - `/put-your-ovpn-files-here/your-vpn-provider-1`
+Example config - `/put-your-ovpn-files-here/your-vpn-provider-example`
 
 ## Running
 
