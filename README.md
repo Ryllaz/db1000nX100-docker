@@ -54,19 +54,19 @@ Use `stop.bash` for stopping service and removing container.
 
 After running setup script you will get file 
 ```
-put-your-ovpn-files-here/db1000nX100-config-override.txt`. 
+put-your-ovpn-files-here/db1000nX100-config-override.txt`
 ```
 
 It can have next config options:
 
-| Option                 | Default value | Description                                                                                                                                    |
-|------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| cpuUsageLimit          | 80            | Maximum CPU usage of the process, percents * CPU_cores_count<br>Example: 4 cpu cores, cpuUsageLimit=380 (max load is 400%, we're setting 380%) |
-| ramUsageLimit          | 80            | Maximum RAM usage of the process, percents                                                                                                     |
-| networkUsageLimit      | 90            | Maximum network bandwidth usage of the process, percents                                                                                       |
-| oneSessionDuration     | 900           | Duration of the session, ms                                                                                                                    |
-| vpnMaxConnectionsLimit | 0             | Maximum number of simultaneous VPN connections                                                                                                 |
-| logsEnabled            | 1             | Enable/disable logging into `put-your-ovpn-files-here/db1000nX100-log.txt`                                                                     |
+| Option                 | Default value | Description                                                                |
+|------------------------|---------------|----------------------------------------------------------------------------|
+| cpuUsageLimit          | 80            | Maximum CPU usage of the process, percents                                 |
+| ramUsageLimit          | 80            | Maximum RAM usage of the process, percents                                 |
+| networkUsageLimit      | 90            | Maximum network bandwidth usage of the process, percents                   |
+| oneSessionDuration     | 900           | Duration of the session, ms                                                |
+| vpnMaxConnectionsLimit | 0             | Maximum number of simultaneous VPN connections                             |
+| logsEnabled            | 1             | Enable/disable logging into `put-your-ovpn-files-here/db1000nX100-log.txt` |
 
 Default configuration file is: 
 ```
