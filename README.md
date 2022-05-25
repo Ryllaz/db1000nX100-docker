@@ -52,11 +52,12 @@ Use `stop.bash` for stopping service and removing container.
 
 ## Configuration
 
-After running setup script you will get file `put-your-ovpn-files-here/db1000nX100-config-override.txt`. 
+After running setup script you will get file 
+```
+put-your-ovpn-files-here/db1000nX100-config-override.txt`. 
+```
 
-It can have next config options.
-
-Default configuration file is `put-your-ovpn-files-here/db1000nX100-config.txt`
+It can have next config options:
 
 | Option                 | Default value | Description                                                                                                                                    |
 |------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -66,6 +67,11 @@ Default configuration file is `put-your-ovpn-files-here/db1000nX100-config.txt`
 | oneSessionDuration     | 900           | Duration of the session, ms                                                                                                                    |
 | vpnMaxConnectionsLimit | 0             | Maximum number of simultaneous VPN connections                                                                                                 |
 | logsEnabled            | 1             | Enable/disable logging into `put-your-ovpn-files-here/db1000nX100-log.txt`                                                                     |
+
+Default configuration file is: 
+```
+put-your-ovpn-files-here/db1000nX100-config.txt
+```
 
 
 ## Info
