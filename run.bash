@@ -35,9 +35,9 @@ if ! cd put-your-ovpn-files-here; then
    exit
 fi
 
-if [[ ! -f db1000nx100-config-override.txt ]]
+if [[ ! -f db1000nX100-config-override.txt ]]
 then
-  cp db1000nx100-config.txt db1000nx100-config-override.txt
+  cp db1000nX100-config.txt db1000nX100-config-override.txt
 fi
 
 docker create --volume "$(pwd)":/media/put-your-ovpn-files-here  --privileged  --interactive  --name ${container}  ${image}
